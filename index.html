@@ -8,17 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-    <title>Dev</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Victor Lima Dev</title>
 </head>
 
 <body>
 
     <header>
-        <div class="logo">
-            <img src="img/devjane.png" alt="">
-        </div>
+       
 
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -29,7 +40,7 @@
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#services" class="nav__link">Meus Serviçoes</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Meu Trabalho</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Meu Trabalho</a></li>
             </ul>
         </nav>
 
@@ -38,19 +49,21 @@
     <!-- Intro -->
 
     <section class="intro" id="home">
-        <h1 class="section__tittle section__tittle--intro">
-            Olá, eu sou o<strong>Victor Lima</strong>
+        <h1 class="section__title section__title--intro">
+            Olá, eu sou <strong>Victor Lima</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">
-            FullStack Developer
-            <img src="img/dev-jane-01.jpg" alt="">
+            FullStack Dev
         </p>
+        <div class="intro__img teste">
+            <img src="img/victor.jfif" alt="" class="intro__img">
+        </div>
     </section>
 
     <!-- Meus serviços -->
 
     <section class="my-services" id="services">
-        <h2 class="section__tittle section__tittle--services">O que eu faço</h2>
+        <h2 class="section__title section__title--services">Habilidades</h2>
         <div class="services">
 
             <div class="service">
@@ -68,37 +81,41 @@
 
             <div class="service">
                 <h3>Business Intelligence</h3>
-                <p>Com conhecimentos avançados em Excel e Power BI, sou capaz de realizar análises de dados de alta
-                    qualidade e produzir relatórios visuais para tomada de decisões. Além disso, minhas habilidades em
-                    Python me permitem utilizar ferramentas poderosas para manipulação e processamento de dados.</p>
+                <p>Com conhecimentos avançados em Excel e Power BI, sou capaz de realizar análises de dados e produzir
+                    relatórios visuais. Minhas habilidades em Python permitem a manipulação e processamento de dados.
+                </p>
             </div>
 
         </div>
+        <a href="#work" class="btn">My Work</a>
 
-        <a href="#work" class="btn">Meu Trabalho</a>
+
     </section>
 
     <!-- Sobre -->
 
     <section class="about-me" id="about">
-        <h2 class="section__tittle section__tittle--about">Sobre mim</h2>
+        <h2 class="section__title section__title--about">Sobre mim</h2>
         <p class="section__subtitle section__subtitle--about">Desenvolvedor FullStack</p>
 
         <div class="about-me__body">
-            <p>Olá, meu nome é Victor Lima, sou desenvolvedor FullStack e estou em busca de novos desafios. Sou
-                apaixonado por tecnologia e por resolver problemas. Tenho experiência em desenvolvimento de sistemas web
-                e mobile, com foco em front-end e back-end. Atualmente estou estudando Python e suas bibliotecas para
-                Data Science e Machine Learning.</p>
-            <p>Minhas habilidades incluem Angular, SQL, ASP.NET, TypeScript, Firebase, .NET, Python, Excel e Power BI.
-                Sou um desenvolvedor FullStack experiente e capaz de criar aplicativos web dinâmicos e escaláveis. Além
-                disso, sou capaz de criar sistemas escaláveis e robustos para aplicativos da web. Meu conhecimento em
-                Python me permite criar algoritmos poderosos e automatizar processos.</p>
-            <p>Com conhecimentos avançados em Excel e Power BI, sou capaz de realizar análises de dados de alta
-                qualidade e produzir relatórios visuais para tomada de decisões. Além disso, minhas habilidades em
-                Python me permitem utilizar ferramentas poderosas para manipulação e processamento de dados.</p>
+            <p>Olá, meu nome é Victor Lima e sou um desenvolvedor FullStack iniciante, mas muito esforçado. Estou sempre
+                em busca de novos desafios para aprimorar minhas habilidades. Sou apaixonado por tecnologia e tenho
+                grande interesse em resolver problemas.</p>
+            <p>Tenho experiência em desenvolvimento de sistemas web e mobile, com ênfase em front-end e back-end. No
+                momento, estou me dedicando ao estudo de Python e suas bibliotecas para Data Science e Machine Learning.
+            </p>
+            <p>Entre minhas habilidades, posso destacar Angular, SQL, ASP.NET, TypeScript, Firebase, .NET, Python, Excel
+                e Power BI. Apesar de ainda ser iniciante, sou capaz de criar aplicativos web dinâmicos e escaláveis,
+                bem como sistemas robustos para aplicações web. Com o conhecimento avançado em Excel e Power BI, consigo
+                realizar análises de dados de alta qualidade e produzir relatórios visuais para tomada de decisões.</p>
+            <p>Com o meu conhecimento em Python, posso criar algoritmos poderosos e automatizar processos, além de
+                utilizar ferramentas poderosas para manipulação e processamento de dados. Estou empenhado em aprender
+                cada vez mais para oferecer soluções cada vez mais eficientes e inovadoras aos meus clientes.</p>
         </div>
 
-        <img src="img/dev-jane-02.jpg" alt="" class="about-me__img">
+        <img src="img/victorCorpo.jfif" alt="" class="about-me__img">
+
 
         <!-- <a href="#" class="btn">Download CV</a> -->
 
@@ -112,21 +129,10 @@
 
         <div class="portfolio">
 
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/cat.png" alt="" class="portfolio__img">
             </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-            </a>
 
         </div>
 
@@ -134,19 +140,23 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <a href="victoraugustolima1@gmail.com" class="footer-link">VictorLimaDev</a>
+        <a href="mailto:victoraugustolima1@gmail.com" class="footer-link">Enviar Email</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a href="#" class="social-list__link">Linkedin</a>
-                <a href="#" class="social-list__link">gitHub</a>
+                <a href="https://www.linkedin.com/in/victor-lima-997b86229/" class="social-list__link">Linkedin
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Victor-Lima-dev" class="social-list__link">GitHub
+                    <i class="fab fa-github"></i>
+                </a>
             </li>
         </ul>
-            
+
     </footer>
 
 
 
-
+    <script src="/index.js"></script>
 
 
 
